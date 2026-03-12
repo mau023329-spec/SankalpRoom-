@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 # ── Local imports ──────────────────────────────────────────────────────────
-from database.db import init_db
+from db.db import init_db
 from auth.auth import is_logged_in, render_auth_page, logout
 from rooms.rooms import (
     render_room_selector, get_user_rooms, get_room, get_room_members,

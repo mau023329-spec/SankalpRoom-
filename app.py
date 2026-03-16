@@ -16,7 +16,7 @@ st.set_page_config(
 from database.db import init_db
 from auth.auth import (
     is_logged_in, render_auth_page, logout,
-    update_username, update_profile_photo,   # CHANGE 2, 3
+     update_profile_photo,   # CHANGE 2, 3
 )
 from rooms.rooms import (
     get_user_rooms, get_room, get_room_members,

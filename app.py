@@ -19,7 +19,7 @@ from auth.auth import (
     update_username, update_profile_photo,   # CHANGE 2, 3
 )
 from rooms.rooms import (
-    get_user_rooms, get_room, , get_room_members,
+    get_user_rooms, get_room, get_room_members,
     get_room_subgroups, get_subgroup, get_subgroup_members,
     get_room_data,
     create_room, join_room, create_subgroup, join_subgroup,
